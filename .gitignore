@@ -1,0 +1,13 @@
+# Build outputs
+benchmarks/bin/
+conv2d
+conv2d_*
+conv2d_serial
+
+# Benchmark artifacts
+benchmarks/runtime_*.png
+benchmarks/speedup_*.png
+
+
+# Temporary build artifacts
+tmp/
