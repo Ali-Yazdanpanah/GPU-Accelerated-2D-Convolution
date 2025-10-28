@@ -2,11 +2,16 @@
 benchmarks/bin/
 conv2d
 conv2d_*
+!conv2d_optimized.cu
+!conv2d_serial.cpp
 conv2d_serial
 
 # Benchmark artifacts
-benchmarks/runtime_*.png
-benchmarks/speedup_*.png
+benchmarks/results.csv
+benchmarks/results.json
+# benchmarks/runtime_*.png
+# benchmarks/speedup_*.png
+benchmarks/summary.md
 
 
 # Temporary build artifacts
